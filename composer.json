@@ -1,0 +1,21 @@
+{
+    "name": "jahem/sign",
+    "description": "sign",
+    "type": "libray",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jahem",
+            "email": "13680653051@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sign\\" : "src/"
+        }
+    }
+}
